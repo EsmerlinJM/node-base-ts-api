@@ -3,7 +3,7 @@ services:
 
   # Postgress
   postgres:
-    image: postgres:latest
+    image: postgres:alpine
     ports:
       - '${TYPEORM_PORT}:${TYPEORM_PORT}'
     environment:
